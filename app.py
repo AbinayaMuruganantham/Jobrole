@@ -70,6 +70,8 @@ else:
     st.write('Awaiting CSV file to be uploaded. Currently using example input parameters (shown below).')
     st.write(input_df)
 
+from src.pipelines.predict_pipeline
+import PredictPipeline
 predict_pipeline = PredictPipeline()
 
 predicted_value= predict_pipeline.predict(input_df)
