@@ -70,11 +70,11 @@ else:
     st.write('Awaiting CSV file to be uploaded. Currently using example input parameters (shown below).')
     st.write(input_df)
 
-from src.pipelines.predict_pipeline
-import PredictPipeline
-predict_pipeline = PredictPipeline()
+#from src.pipelines.predict_pipeline
+#import PredictPipeline
+#predict_pipeline = PredictPipeline()
 
-predicted_value= predict_pipeline.predict(input_df)
+#predicted_value= predict_pipeline.predict(input_df)
 
-st.subheader('Prediction')
-st.write('will be Placed' if predicted_value ==1 else 'Not placed')
+#st.subheader('Prediction')
+#st.write('will be Placed' if predicted_value ==1 else 'Not placed')
