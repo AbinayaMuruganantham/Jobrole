@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from src.pipelines.predict_pipeline import PredictPipeline
+#from src.pipelines.predict_pipeline
+import PredictPipeline
 
 st.write("""
 # Campus prediction App.
